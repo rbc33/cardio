@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cardio"
+version = "0.1.0"
+description = ""
+authors = ["rbc33 <ricardobenthem@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+langchain = "^0.2.0"
+langchain-openai = "^0.1.7"
+lark = "^1.1.9"
+pypdf = "^4.2.0"
+
+[tool.poetry.group.dev.dependencies]
+langchain-community = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
